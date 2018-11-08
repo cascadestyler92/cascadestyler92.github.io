@@ -1,0 +1,224 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+
+ font-family: 'Charmonman', cursive;
+    text-align:center;
+}
+
+hr{
+    border: 2px solid #ffffff;
+    width: 100px;
+}
+.name{
+font-size: 4em;
+color: #18ba60;
+font-weight:900;
+margin: 0;
+}
+
+.navigation ul{
+    list-style-type: none;
+    margin: 0 auto;
+	color: #18ba60;
+    padding: 0px;
+}
+
+.navigation li{
+
+display: inline-block;
+margin: 1em;
+}
+
+.navigation a{
+   font-weight: bold;
+   text-decoration: none;
+   padding: 0.5em;
+   color: #ffffff;
+   text-transform: uppercase;
+    }
+  .intro{
+        background:  url(head.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+		
+        padding: 10em 0;
+        color: #ffffff;
+		    }
+
+    header{
+        position: absolute;
+        left: 0px;
+        right:0px;
+        clear: both;
+        overflow: auto;
+        margin-top:1.5em;
+    }
+    .content-intro{
+    margin-top: 5em;
+    overflow: auto;
+
+    }
+
+    .content-intro h1{
+        font-size: 2.5em;
+        font-weight: 900;
+        text-transform: uppercase;
+        margin-top: 1.5em;
+    }
+
+    .content-intro span{
+
+        font-size: 12px;
+        font-weight: 400;
+        display: block;
+        margin-top:10px;
+    }
+    .button-intro{
+
+        padding: 0.5em 2em;
+        margin-top : 1em;
+        background: #18ba60;
+        color: #ffffff;
+        font-weight: 400;
+        border: 2px solid #18ba60;
+        /* text-transform: uppercase; */
+        transition: all 0.2s linear;
+		font-size:20px;
+		position:relative;
+		top:20px;
+            }
+
+
+    .button-intro:hover{
+
+        background: #ffffff;
+        color: #000000;
+        border: 2px solid #18ba60;
+
+            }
+
+    .about-me{
+        padding: 5em 0;
+        overflow: auto;
+		font-size:25px;
+    }
+
+    .about-me h4{
+        color : #18ba60;
+    }
+.content-wrap{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.col-narrow{
+    float: left;
+    overflow: hidden;
+    margin-top: 2em;
+    clear:both;
+    text-align: left;
+}
+.col-wide{
+    float: right;
+    overflow: hidden;
+    margin-top: 2em;
+    width: 70%;
+    text-align:left;
+	font-family: 'Gothic A1', sans-serif;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.social-icons{
+    list-style-type: none;
+    padding: 0px;
+ }
+
+ .social-icons li{
+    float: left;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+ }
+
+ .social-icons a{
+    border-radius: 50%;
+    border: 1px solid #444444;
+    padding:10px;
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+    color: #444444;
+    transition: all 0.2s ease-in;
+ }
+
+ .social-icons a:hover{
+
+    color:#18ba60;
+    border: 1px solid #18ba60;
+ }
+
+ .work{
+     padding: 5em 0;
+    background: linear-gradient(90deg,rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url(c.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position : center center;
+    color: #fff;
+    overflow: auto;
+    }
+
+    .col-narrow h2,h3,p{
+
+        margin: 5px 0;
+    }
+
+    .contact-me {
+        padding: 5em 0;
+        overflow: auto;
+            }
+
+    footer{
+        background : #000000;
+        padding: 5em 0;
+        color: #ffffff;
+        overflow: auto;
+		font-family: 'Gothic A1', sans-serif;
+    }
+	
+
+	div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
